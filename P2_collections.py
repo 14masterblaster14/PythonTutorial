@@ -155,7 +155,7 @@ print(mytuple)
 print(thistuple[1])
 
 # Change Tuple Values : but u Can't :)
-thistuple[1] = "blackcurrant"
+# thistuple[1] = "blackcurrant"
 # The values will remain the same:
 print(thistuple)
 
