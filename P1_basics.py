@@ -479,7 +479,9 @@ if b > a:
 
 # O/P :   b is greater than a
 
+##
 # Elif : "if the previous conditions were not true, then try this condition".
+##
 
 a = 33
 b = 33
@@ -490,7 +492,9 @@ elif a == b:
 
 # O/P : a and b are equal
 
+##
 # Else : It catches anything which isn't caught by the preceding conditions.
+##
 
 a = 200
 b = 33
@@ -514,10 +518,14 @@ else:
 
 # O/P :   b is not greater than a
 
+##
 # Short Hand If
+##
 if a > b: print("a is greater than b")  # O/P : a is greater than b
 
+##
 # Short Hand If ... Else
+##
 print("A") if a > b else print("B")  # O/P : A
 
 print("A") if a > b else print("=") if a == b else print("B")
@@ -599,6 +607,7 @@ while i < 6:
 5
 6
 """
+
 ##############################
 # 10 #    For Loops
 #               It is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
@@ -642,8 +651,9 @@ n
 a
 """
 
+##
 # break Statement : With the break statement we can stop the loop before it has looped through all the items:
-
+##
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
     print(x)
@@ -656,8 +666,9 @@ apple
 banana
 """
 
+##
 # The continue Statement : With the continue statement we can stop the current iteration of the loop, and continue with the next:
-
+##
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
     if x == "banana":
@@ -670,8 +681,9 @@ apple
 cherry
 """
 
-# The range() Function : The range() function returns a sequence of numbers,
-#                         starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
+#
+# The range() Function :    The range() function returns a sequence of numbers,
+#                           starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
 
 for x in range(6):  # It is not the values of 0 to 6, but the values 0 to 5.
     print(x)
