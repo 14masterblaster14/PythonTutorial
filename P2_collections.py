@@ -1,10 +1,10 @@
 #############################
-# 8 #    Python Collections
-#
-#        List is a collection which is ordered and changeable. Allows duplicate members.
-#        Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
-#        Set is a collection which is unordered and unindexed. No duplicate members.
-#        Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
+# 12 #    Python Collections : The most basic data structure in Python is the sequence.
+#                       Ordered     Changeable              Indexed         Duplicates
+#        List       :   ordered     Yes                     Indexed         Allowed
+#        Tuple      :   ordered     No                                      Allowed
+#        Set        :   unordered   No (but can add)        Unindexed       Not Allowed
+#        Dictionary :   unordered   Yes                     Indexed         Not Allowed
 #############################
 
 
@@ -13,121 +13,136 @@
 #           It allows duplicate members.
 #           In Python lists are written with square brackets.
 #
-# Python does not have built-in support for Arrays, but Python Lists can be used instead.
+# Note : Python does not have built-in support for Arrays, but Python Lists can be used instead.
 ###
 
 emptyList = []
-print(emptyList)
+print(emptyList)  # O/P : []
 
 thislist = ["apple", "banana", "cherry"]
-print(thislist)
+print(thislist)  # O/P : ['apple', 'banana', 'cherry']
 
 # The list() Constructor
 mylist = list(("apple", "banana", "cherry"))  # note the double round-brackets
-print(mylist)
+print(mylist)  # O/P : ['apple', 'banana', 'cherry']
 
 # Access Items
-print(thislist[1])
+print(thislist[1])  # O/P : banana
 
 # Change Item Value
 thislist[1] = "blackcurrant"
-print(thislist)
+print(thislist)  # O/P :['apple', 'blackcurrant', 'cherry']
 
 # Loop Through a List
 for x in thislist:
     print(x)
 
+#   O/P :   apple
+#           blackcurrant
+#           cherry
+
 # Check if Item Exists
 if "apple" in thislist:
-    print("Yes, 'apple' is in the fruits list")
+    print("Yes, 'apple' is in the fruits list")  # O/P : Yes, 'apple' is in the fruits list
 
 # List Length
-print(len(thislist))
+print(len(thislist))  # O/P : 3
 
 # Add Items
 thislist.append("orange")
-print(thislist)
+print(thislist)  # O/P : ['apple', 'blackcurrant', 'cherry', 'orange']
 
 # Insert an item at specific position:
 thislist.insert(2, "Mango")
-print(thislist)
+print(thislist)  # O/P : ['apple', 'blackcurrant', 'Mango', 'cherry', 'orange']
 
 # Remove Item
 thislist.remove("Mango")
-print(thislist)
+print(thislist)  # O/P : ['apple', 'blackcurrant', 'cherry', 'orange']
 
 # The pop() method removes the specified index, (or the last item if index is not specified):
 thislist.pop()
-print(thislist)
+print(thislist)  # O/P : ['apple', 'blackcurrant', 'cherry']
 
 # List functions:
 
-print("----------------")
 myList = [9, 4, 8, 2, 0, 6, 5, 7, 1, 5, 3]
 
-print(sum(myList))
+print(sum(myList))  # O/P : 50
 
-print(min(myList))
+print(min(myList))  # O/P : 0
 
-print(max(myList))
+print(max(myList))  # O/P : 9
 
-print(myList[0])
+print(myList[0])  # O/P : 9
 
-print(myList[-1])
+print(myList[-1])  # O/P : 3   (because its a sequence)
+print(myList[-3])  # O/P : 1   (because its a sequence)
+
+print(myList[4:])  # O/P : [0, 6, 5, 7, 1, 5, 3]   (Slicing)
 
 reverseList = myList[::-1]
-print(reverseList)
+print(reverseList)  # O/P : [3, 5, 1, 7, 5, 6, 0, 2, 8, 4, 9]
 
 myList.sort()  # do not need to use a return variable when doing this, because lists are objects
-print(myList)
+print(myList)  # O/P : [0, 1, 2, 3, 4, 5, 5, 6, 7, 8, 9]
 
 # reverseList = list(reversed(myList))      # function reversed() which takes a list as parameter.
 # But, the function does not return a list object but an iterator.
 # The method list() converts the output of reversed() and converts it to a list object.
 
 reverseList = myList[::-1]  # Elegant way
-print(reverseList)
+print(reverseList)  # O/P : [9, 8, 7, 6, 5, 5, 4, 3, 2, 1, 0]
 
 # range
 
-x = list(range(100))  # starts counting from zero
-print(x)
+x = list(range(10))  # starts counting from zero but excluding 10
+print(x)  # O/P : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-x = list(range(1, 101))
-print(x)
+x = list(range(1, 10))  # starts counting from 1 but excluding 10
+print(x)  # O/P : [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 for i in range(1, 12, 3):  # A third parameter defines the step size, by default its one.
     print(i)
 
+# O/P :     1
+#           4
+#           7
+#           10
+
 # The del keyword removes the specified index:
-print(thislist)
+print(thislist)  # O/P :  ['apple', 'blackcurrant', 'cherry']
 del thislist[0]
-print(thislist)
+print(thislist)  # O/P :  ['blackcurrant', 'cherry']
 
 # The del keyword can also delete the list completely:
 del thislist
-# print(thislist)
+# print(thislist)      # O/P :    NameError: name 'thislist' is not defined
 
 # The clear() method empties the list:
 thislist = ["apple", "banana", "cherry"]
 thislist.clear()
-print(thislist)
+print(thislist)  # O/P : []
 
 ###
 # Python does not have built-in support for Arrays, but Python Lists can be used instead.
 ###
 
 cars = ["Ford", "Tata", "BMW", "TOYOTA"]
-print(cars[0])
+print(cars[0])  # O/P : Ford
 cars[0] = "Mahindra"
 
 x = len(cars)
-print(x)
+print(x)  # O/P : 4
 
 for x in cars: print(x)
 
+# O/P : Mahindra
+#       Tata
+#       BMW
+#       TOYOTA
+
 # append()	Adds an element at the end of the list
-# clear()	Removes all the elements from the list
 # copy()	Returns a copy of the list
 # count()	Returns the number of elements with the specified value
 # extend()	Add the elements of a list (or any iterable), to the end of the current list
@@ -235,7 +250,8 @@ print(thisset)
 # del
 thisset = {"apple", "banana", "cherry"}
 del thisset
-print(thisset)
+# print(thisset)          # O/P : NameError: name 'thisset' is not defined
+
 
 # add()	Adds an element to the set
 # clear()	Removes all the elements from the set
@@ -368,7 +384,8 @@ thisdict = {
     "year": 1964
 }
 del thisdict
-print(thisdict)  # this will cause an error because "thisdict" no longer exists.
+# print(thisdict)  # this will cause an error because "thisdict" no longer exists.
+# O/P : NameError: name 'thisdict' is not defined
 
 # The clear() keyword empties the dictionary:
 
