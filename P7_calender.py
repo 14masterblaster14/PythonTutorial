@@ -89,16 +89,12 @@ print(d_aware.tzinfo)  # O/P : America/Los_Angeles
 #  Let's create a datetime object with a UTC timezone, and convert it to Pacific Standard.
 
 utc_now = pytz.utc.localize(datetime.datetime.now())
-print(utc_now)
-# O/P : 2019-03-24 12:23:22.673501+00:00
-print(utc_now.isoformat())
-# O/P : 2019-03-24T12:23:22.673501+00:00
+print(utc_now)  # O/P : 2019-03-24 12:23:22.673501+00:00
+print(utc_now.isoformat())  # O/P : 2019-03-24T12:23:22.673501+00:00
 
 pst_now = utc_now.astimezone(pytz.timezone("America/Los_Angeles"))
-print(pst_now)
-# O/P : 2019-03-24 05:23:22.673501-07:00
-print(pst_now.isoformat())
-# O/P : 2019-03-24T05:23:22.673501-07:00
+print(pst_now)  # O/P : 2019-03-24 05:23:22.673501-07:00
+print(pst_now.isoformat())  # O/P : 2019-03-24T05:23:22.673501-07:00
 
 print(utc_now == pst_now)  # O/P : True
 
@@ -119,8 +115,7 @@ brothers_birthdate = ind.localize(brothers_birthdate)
 # datetime - timedelta = datetime
 
 diff = brothers_birthdate - my_birthdate  # timedelta object
-print(diff)
-# O/P : 2440 days, 0:35:00
+print(diff)  # O/P : 2440 days, 0:35:00
 
 
 # e.g. "what day of the week is 90 days from today?".

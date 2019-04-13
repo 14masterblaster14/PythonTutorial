@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6c6f00a1-ad3c-48b7-b8f9-9bda9a8d4e77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P1_basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/P1_basics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P2_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/P2_collections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P3_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P4_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/P4_classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P5_iterators.py" beforeDir="false" afterPath="$PROJECT_DIR$/P5_iterators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P6_modules.py" beforeDir="false" afterPath="$PROJECT_DIR$/P6_modules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P7_calender.py" beforeDir="false" afterPath="$PROJECT_DIR$/P7_calender.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,19 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/P2_collections.py">
+        <entry file="file://$PROJECT_DIR$/P5_iterators.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="453" column="16" lean-forward="true" selection-start-line="453" selection-start-column="16" selection-end-line="453" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/P1_basics.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="232" column="25" selection-start-line="232" selection-start-column="25" selection-end-line="232" selection-end-column="25" />
+            <state relative-caret-position="-42">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -53,9 +47,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/P3_functions.py" />
         <option value="$PROJECT_DIR$/P1_basics.py" />
         <option value="$PROJECT_DIR$/P2_collections.py" />
+        <option value="$PROJECT_DIR$/P3_functions.py" />
+        <option value="$PROJECT_DIR$/P7_calender.py" />
+        <option value="$PROJECT_DIR$/P6_modules.py" />
+        <option value="$PROJECT_DIR$/P4_classes.py" />
+        <option value="$PROJECT_DIR$/P5_iterators.py" />
       </list>
     </option>
   </component>
@@ -107,7 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.P2_collections">
+  <component name="RunManager" selected="Python.P4_classes">
     <configuration name="P11_tryexception" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonTutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,8 +169,52 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="P3_functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonTutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P3_functions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="P4_classes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonTutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P4_classes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.P4_classes" />
+        <item itemvalue="Python.P3_functions" />
         <item itemvalue="Python.P2_collections" />
         <item itemvalue="Python.P1_basics" />
         <item itemvalue="Python.P11_tryexception" />
@@ -218,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555091686871</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2nd Commit.">
+      <created>1555166859704</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555166859729</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -249,7 +298,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Initial Commit." />
     <MESSAGE value="1st Commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="1st Commit." />
+    <MESSAGE value="2nd Commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd Commit." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -257,18 +307,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/venv/P1_basics.py" />
-    <entry file="file://$PROJECT_DIR$/P3_functions.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/P11_tryexception.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="3" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/P6_modules.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/mymodule.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -282,8 +326,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/P2_collections.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="9513">
           <caret line="453" column="16" lean-forward="true" selection-start-line="453" selection-start-column="16" selection-end-line="453" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P7_calender.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="44" column="24" lean-forward="true" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P6_modules.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P3_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3045">
+          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P4_classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2898">
+          <caret line="138" column="32" selection-start-line="138" selection-start-column="32" selection-end-line="138" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P5_iterators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>

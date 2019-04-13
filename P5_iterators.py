@@ -1,9 +1,9 @@
 #############################
-#   # Iterators :
+# 15 # Iterators :
 #                   -   Iterator is an object that contains a countable number of values.
 #                   -   Iterator implements the iterator protocol, which consist of the methods iter__() and __next__().
 #
-#   # Iterables :
+#    # Iterables :
 #                   -   Lists, tuples, dictionaries, and sets are all iterable objects.
 #                   -   They are iterable containers which you can get an iterator from.
 #                   -   All these objects have a iter() method which is used to get an iterator:

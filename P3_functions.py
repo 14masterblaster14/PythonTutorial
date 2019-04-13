@@ -1,5 +1,5 @@
 #############################
-# 1 #    Functions
+# 13 #    Functions
 #############################
 
 # Creating a Function :
@@ -7,9 +7,10 @@
 def my_function1():
     print("Hello from a function")
 
-
 my_function1()  # Calling the function
 
+
+# O/P : Hello from a function
 
 # with parameter
 
@@ -17,9 +18,9 @@ def my_function(fname):
     print(" Indian Team : " + fname)
 
 
-my_function("Saurav")
-my_function("Sachin")
-my_function("Yuvaraj")
+my_function("Saurav")  # O/P : Indian Team : Saurav
+my_function("Sachin")  # O/P : Indian Team : Sachin
+my_function("Yuvaraj")  # O/P : Indian Team : Yuvaraj
 
 
 # Default Parameter Value
@@ -28,24 +29,22 @@ def my_function(country="Norway"):
     print("I am from " + country)
 
 
-my_function("Sweden")
-my_function("India")
-my_function()
-my_function("Brazil")
-
+my_function("Sweden")  # O/P : I am from Sweden
+my_function("India")  # O/P : I am from India
+my_function()  # O/P : I am from Norway
+my_function("Brazil")  # O/P : I am from Brazil
 
 # Return Values
-
 def my_function(x):
     return 5 * x
 
 
 z = my_function(3)
-print(z)
+print(z)  # O/P : 15
 
-print(my_function(3))
-print(my_function(5))
-print(my_function(9))
+print(my_function(3))  # O/P : 15
+print(my_function(5))  # O/P : 25
+print(my_function(9))  # O/P : 45
 
 
 def getPerson():
@@ -57,13 +56,13 @@ def getPerson():
 
 personName, personAge, personCountry = getPerson()
 
-print(personName)
-print(personAge)
-print(personCountry)
+print(personName)  # O/P : Sachin
+print(personAge)  # O/P : 45
+print(personCountry)  # O/P : India
 
 
 #############################
-# 2 #    Recursion :
+#    Recursion :
 #                    It means a defined function can call itself.
 #############################
 
@@ -126,7 +125,7 @@ RecursionError: maximum recursion depth exceeded in comparison
 """
 
 #############################
-# 3 #    Lambda Function :
+#    Lambda Function :
 #                    It means a defined function can call itself.
 #                    A lambda function is a small anonymous function.
 #                    A lambda function can take any number of arguments, but can only have one expression.
@@ -149,7 +148,6 @@ print(x(5, 6, 2))  # O/P : 13
 
 def myfunc(n):
     return lambda a: a * n
-
 
 mydoubler = myfunc(2)
 mytripler = myfunc(3)

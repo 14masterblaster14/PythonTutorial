@@ -1,5 +1,5 @@
 #############################
-# 1 #    Class :
+# 14 #    Class :
 #                - No protected and private variables, but can define
 #                      protected with _x
 #                      private with __x
@@ -31,22 +31,32 @@ class MyClass:
 # Object:
 
 object1 = MyClass()
-print(" Accessing  property :- ", object1.x)
+print(" Accessing  property :- ", object1.x)  # O/P :  Accessing  property :-  5
 print(" Accessing method :- ")
 object1.display("object1")
+#                        O/P :  Accessing method :-
+#                               This is display method, called by  object1
 
 # You can access it with class and need not to create object for it, but can access with object as well
 MyClass.static_method()
+#                        O/P :  This ia static method
+#                               Value of x :-  1
 object1.static_method()
-print(object1.x)
+#                        O/P :  This ia static method
+#                               Value of x :-  1
+print(object1.x)  # O/P : 5
 
 #  A class method is a method that’s shared among all objects.
 #  To call a class method, put the class as the first argument.
 #  You can use class method with both objects and the class.
 #  But you cannot change the property with object as it belongs to the class and can be changed with class only
 object1.class_method()
+#                       O/P :   This ia class method
+#                               Value of x :-  2
 MyClass.class_method()
-print(object1.x)
+#                       O/P :   This ia class method
+#                               Value of x :-  2
+print(object1.x)  # O/P : 2
 
 print("----------------------")
 print(object1.x)  # 2
@@ -86,11 +96,11 @@ class Animal:
 animal1 = Animal('mayank', 21)
 animal2 = Animal.fromBirthYear('mayank', 1996)
 
-print("Animal1 age : ", animal1.age)
-print("Animal2 age : ", animal2.age)
+print("Animal1 age : ", animal1.age)  # O/P : Animal1 age :  21
+print("Animal2 age : ", animal2.age)  # O/P : Animal2 age :  23
 
 # print the result
-print(Animal.isAdult(22))
+print(Animal.isAdult(22))  # True
 
 
 #
@@ -117,16 +127,16 @@ class Person:
         return self.userPassword
 
 
-person = Person("Saurav", 47)
-print(person.userId)
-print(person.name)
-print(person.age)
+person = Person("Saurav", 47)  # O/P : Hello my name is : Saurav
+print(person.userId)  # O/P : Saurav7
+print(person.name)  # O/P : Saurav
+print(person.age)  # O/P : 47
 
 person.setPassword("$pswd")
-print(person.getPassword())
+print(person.getPassword())  # O/P : $pswd
 
 person.age = 50  # Modify Object Properties
-print(person.age)
+print(person.age)  # O/P : 50
 
 del person.age  # Delete Object Properties
 # print(person.age)
@@ -138,8 +148,9 @@ del person  # Delete Objects
 # a #    Inheritance
 #############################
 
+##
 # Parent Class
-
+##
 class Person:
     def __init__(self, fname, lname):
         self.firstname = fname
@@ -154,17 +165,19 @@ class Person:
 
 # Use the Person class to create an object, and then execute the printname method:
 x = Person("Sachin", "Tendulkar")
-x.printname()
+x.printname()  # O/P : Person Name is - Sachin Tendulkar
 
 
+##
 # Child Class
+##
 
 class Student(Person):
     pass  # Use the pass keyword when you do not want to add any other properties or methods to the class.
 
 
 y = Student("Saurav", "Ganguly")
-y.printname()
+y.printname()  # O/P : Person Name is - Saurav Ganguly
 
 
 class Employee(Person):
@@ -199,12 +212,14 @@ class Employee(Person):
 """
 
 z = Employee("Veeru", "Sehwag", "52")
-z.welcomenote()
-z.printHobby()
-z.printname()
+z.welcomenote()  # O/P : Welcome Veeru Sehwag to the class of 2019
+z.printHobby()  # O/P : He is interested in Cricket :)
+z.printname()  # O/P : Employee Name is - Veeru Sehwag
 
 
+##
 # Multiple Inheritance
+##
 
 class Abc:
 
@@ -243,19 +258,18 @@ class Xyz(Abc, Def):
 
 myObject = Xyz(1, 2, 3)
 
-print("a = ", myObject.a)
-print("b = ", myObject.b)
-print("c = ", myObject.c)
-myObject.abcDispplay()
+print("a = ", myObject.a)  # O/P : 1
+print("b = ", myObject.b)  # O/P : None
+print("c = ", myObject.c)  # O/P : 21
+myObject.abcDispplay()  # O/P : Display ABC
 
-print("d = ", myObject.d)
-print("e = ", myObject.e)
-print("f = ", myObject.f)
-myObject.defDispplay()
+print("d = ", myObject.d)  # O/P : 2
+print("e = ", myObject.e)  # O/P : None
+print("f = ", myObject.f)  # O/P : 14
+myObject.defDispplay()  # O/P : Display DEF
 
-print("x = ", myObject.x)
-myObject.xyzDisplay()
-
+print("x = ", myObject.x)  # O/P : x = 3
+myObject.xyzDisplay()  # O/P : Display XYZ
 
 # e.g.
 
@@ -295,12 +309,13 @@ class Resident(Person, Student):  # extends both Person and Student class
 
 
 resident1 = Resident('John', 30, '102')
-resident1.showName()
-print(resident1.getId())
+resident1.showName()  # O/P : John
+print(resident1.getId())  # O/P : 102
 
 
+##
 # Multilevel Inheritance
-
+##
 class Pqr:
 
     def __init__(self, _p):
@@ -337,15 +352,15 @@ class Vw(Stu):
 
 
 myObject = Vw(1, 2, 3)
-myObject.vwDisplay()
-print("v - ", myObject.v)
+myObject.vwDisplay()  # O/P : Display VW
+print("v - ", myObject.v)  # O/P : v -  1
 
-myObject.pqrDispplay()
-print("p - ", myObject.p)
-print("_q - ", myObject._q)
-# print("__r - ", myObject.__r)           # Can't access private variable
+myObject.pqrDispplay()  # O/P : Display PQR
+print("p - ", myObject.p)  # O/P : p -  3
+print("_q - ", myObject._q)  # O/P : _q -  None
+# print("__r - ", myObject.__r)     # Can't access private variable
 
-myObject.stuDispplay()
-print("s - ", myObject.s)
-print("_t - ", myObject._t)
-# print("__u - ", myObject.__u)           # Can't access private variable
+myObject.stuDispplay()  # O/P : Display STU
+print("s - ", myObject.s)  # O/P : s -  2
+print("_t - ", myObject._t)  # O/P : _t -  None
+# print("__u - ", myObject.__u)     # Can't access private variable
