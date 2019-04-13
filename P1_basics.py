@@ -26,7 +26,8 @@ IndentationError: expected an indented block
 # 2 #   Creating Variables :
 #           - A variable name must start with a letter(upper or lower case) or the underscore character
 #           - A variable name cannot start with a number
-#           - A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+#           - A variable name can only contain alpha-numeric characters and
+#             underscores (A-z, 0-9, and _ )
 #           - Variable names are case-sensitive (age, Age and AGE are three different variables)
 #           - Variable names preferably should use Camel casing
 #                 e.g. daysInYear, daysInMonth
@@ -65,8 +66,10 @@ print(a + b)  # O/P = 7
 
 #############################
 # 4 #   Python Numbers :
-#           int     : Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
-#           float   : Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
+#           int     : Int, or integer, is a whole number, positive or negative,
+#                     without decimals, of unlimited length.
+#           float   : Float, or "floating point number" is a number, positive or negative,
+#                     containing one or more decimals.
 #           complex : Complex numbers are written with a "j" as the imaginary part:
 #############################
 
@@ -101,11 +104,13 @@ print(x, y, z)  # O/P : 1 4.8 Hi
 
 #############################
 # 5 #    Python Casting
-#           int()   -   constructs an integer number from an integer literal, a float literal
-#                       (by rounding down to the previous whole number), or a string literal (providing the string represents a whole number)
-#           float() -   constructs a float number from an integer literal, a float literal or a string literal
-#                       (providing the string represents a float or an integer)
-#           str()   -   constructs a string from a wide variety of data types, including strings, integer literals and float literals
+#           int()   -   constructs an integer number from an integer literal,
+#                       a float literal (by rounding down to the previous whole number),
+#                       or a string literal (providing the string represents a whole number)
+#           float() -   constructs a float number from an integer literal, a float literal
+#                       or a string literal (providing the string represents a float or an integer)
+#           str()   -   constructs a string from a wide variety of data types, including strings,
+#                       integer literals and float literals
 #############################
 
 x = int(1)  # x will be 1
@@ -157,7 +162,8 @@ b = "Hello, World!"
 print(b.replace("World", "Universe"))  # O/P : Hello, Universe!
 
 s = "Hello World World World"
-s = s.replace("World", "Universe", 1)  # The parameter (1) indicates that the string should be replaced only once.
+s = s.replace("World", "Universe", 1)
+# The parameter (1) indicates that the string should be replaced only once.
 print(s)  # O/P : Hello Universe World World
 
 # The split() method splits the string into substrings if it finds instances of the separator:
@@ -174,7 +180,8 @@ s = "That I ever did see. Dusty as the handle on the door"
 index = s.find("Dusty")
 print(index)  # O/P : 21
 
-index = s.find("Dusty", 0, 15)  # You can add optional starting index and end index: find(query, start, end)
+index = s.find("Dusty", 0, 15)
+# You can add optional starting index and end index: find(query, start, end)
 print(index)  # O/P : -1
 
 # "in" keyword
@@ -334,7 +341,8 @@ z = x
 
 print(x is z)  # O/P :  True   (because z is the same object as x)
 
-print(x is y)  # O/P :  False  (because x is not the same object as y, even if they have thew same content)
+print(x is y)
+# O/P :  False  (because x is not the same object as y, even if they have thew same content)
 
 # to demonstrate the difference betweeen "is" and "==":
 print(x == y)  # O/P :  True   (because x is equal to y, but not the same object)
@@ -343,14 +351,16 @@ print(x == z)  # O/P :  True
 ###
 #    Membership Operators
 #
-#        in 	:   Returns True if a sequence with the specified value is present in the object	        x in y
-#        not in	:   Returns True if a sequence with the specified value is not present in the object	    x not in y
+#        in 	:   Returns True if a sequence with the specified value is present in the object
+#                   x in y
+#        not in	:   Returns True if a sequence with the specified value is not present in the object
+#                   x not in y
 ###
 
 x = ["apple", "banana"]
 
-print("banana" in x)  # O/P :  True   (because a sequence with the value "banana" is in the list)
-print("banana" not in x)  # O/P :  False  (because a sequence with the value "banana" is not in the list)
+print("banana" in x)  # O/P :  True (because a sequence with the value "banana" is in the list)
+print("banana" not in x)  # O/P :  False (because a sequence with the value "banana" is not in the list)
 
 ###
 #    Bitwise Operators : Bitwise operators are used to compare (binary) numbers:
@@ -359,8 +369,10 @@ print("banana" not in x)  # O/P :  False  (because a sequence with the value "ba
 #       |	    OR	                    Sets each bit to 1 if one of two bits is 1
 #       ^	    XOR	                    Sets each bit to 1 if only one of two bits is 1
 #       ~ 	    NOT	                    Inverts all the bits
-#       <<	    Zero fill left shift	Shift left by pushing zeros in from the right and let the leftmost bits fall off
-#       >>	    Signed right shift	    Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off
+#       <<	    Zero fill left shift	Shift left by pushing zeros in from the right
+#                                       and let the leftmost bits fall off
+#       >>	    Signed right shift	    Shift right by pushing copies of the leftmost bit in
+#                                       from the left,and let the rightmost bits fall off
 ###
 
 x = 125
@@ -590,7 +602,8 @@ while i < 6:
 
 """
 
-# The continue Statement : With the continue statement we can stop the current iteration, and continue with the next:
+# The continue Statement :  With the continue statement we can stop the current iteration,
+#                           and continue with the next:
 
 i = 0
 while i < 6:
@@ -611,7 +624,8 @@ while i < 6:
 
 ##############################
 # 10 #    For Loops
-#               It is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
+#               It is used for iterating over a sequence
+#               (that is either a list, a tuple, a dictionary, a set, or a string).
 ##############################
 
 
@@ -653,7 +667,8 @@ a
 """
 
 ##
-# break Statement : With the break statement we can stop the loop before it has looped through all the items:
+# break Statement:  With the break statement we can stop the loop before it has looped
+#                   through all the items:
 ##
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
@@ -668,7 +683,8 @@ banana
 """
 
 ##
-# The continue Statement : With the continue statement we can stop the current iteration of the loop, and continue with the next:
+# The continue Statement :  With the continue statement we can stop the current iteration of the loop,
+#                           and continue with the next:
 ##
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
@@ -684,7 +700,8 @@ cherry
 
 #
 # The range() Function :    The range() function returns a sequence of numbers,
-#                           starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
+#                           starting from 0 by default, and increments by 1 (by default),
+#                           and ends at a specified number.
 
 for x in range(6):  # It is not the values of 0 to 6, but the values 0 to 5.
     print(x)
@@ -710,7 +727,8 @@ for x in range(2, 6):  # values from 2 to 6 (but not including 6):
 5
 """
 
-# The range() function defaults to increment the sequence by 1, however it is possible to specify the increment value
+# The range() function defaults to increment the sequence by 1,
+# however it is possible to specify the increment value
 # by adding a third parameter: range(2, 30, 3):
 
 for x in range(2, 30, 3):  # Increment the sequence with 3 (default is 1):
@@ -730,7 +748,8 @@ for x in range(2, 30, 3):  # Increment the sequence with 3 (default is 1):
 29
 """
 
-# Else in For Loop :  The else keyword in a for loop specifies a block of code to be executed when the loop is finished:
+# Else in For Loop :    The else keyword in a for loop specifies a block of code to be executed
+#                       when the loop is finished:
 # e.g.  Print all numbers from 0 to 5, and print a message when the loop has ended:
 for x in range(6):
     print(x)

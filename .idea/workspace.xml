@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c6f00a1-ad3c-48b7-b8f9-9bda9a8d4e77" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P10_pip.py" beforeDir="false" afterPath="$PROJECT_DIR$/P10_pip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P11_tryexception.py" beforeDir="false" afterPath="$PROJECT_DIR$/P11_tryexception.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P12_filehandling.py" beforeDir="false" afterPath="$PROJECT_DIR$/P12_filehandling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P7_calender.py" beforeDir="false" afterPath="$PROJECT_DIR$/P7_calender.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P8_jsonparsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/P8_jsonparsing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P9_regex.py" beforeDir="false" afterPath="$PROJECT_DIR$/P9_regex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P1_basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/P1_basics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P2_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/P2_collections.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,59 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/P7_calender.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2646">
-              <caret line="126" column="36" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
-              <folding>
-                <element signature="e#78#93#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/P8_jsonparsing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1659">
-              <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/P9_regex.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3297">
-              <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/P10_pip.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1491">
-              <caret line="71" column="76" selection-start-line="71" selection-start-column="76" selection-end-line="71" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/P11_tryexception.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/P12_filehandling.py">
+        <entry file="file://$PROJECT_DIR$/P2_collections.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+            <state relative-caret-position="-1974">
+              <caret line="197" selection-start-line="197" selection-end-line="197" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/P1_basics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="362" column="26" lean-forward="true" selection-start-line="362" selection-start-column="26" selection-end-line="362" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -92,12 +50,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/P1_basics.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/P1_basics.py" />
-        <option value="$PROJECT_DIR$/P2_collections.py" />
         <option value="$PROJECT_DIR$/P3_functions.py" />
         <option value="$PROJECT_DIR$/P4_classes.py" />
         <option value="$PROJECT_DIR$/P5_iterators.py" />
@@ -109,6 +68,8 @@
         <option value="$PROJECT_DIR$/P10_pip.py" />
         <option value="$PROJECT_DIR$/P11_tryexception.py" />
         <option value="$PROJECT_DIR$/P12_filehandling.py" />
+        <option value="$PROJECT_DIR$/P1_basics.py" />
+        <option value="$PROJECT_DIR$/P2_collections.py" />
       </list>
     </option>
   </component>
@@ -141,6 +102,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -336,27 +298,43 @@
       <option name="project" value="LOCAL" />
       <updated>1555174501097</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Final Commit.">
+      <created>1555175822898</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555175822898</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17864694" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49883178" visible="true" weight="0.17864694" />
+      <window_info id="Structure" order="1" sideWeight="0.50116825" side_tool="true" weight="0.17864694" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295711" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295711" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32943925" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32943925" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32943925" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32943925" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3295711" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -371,7 +349,8 @@
     <MESSAGE value="2nd Commit." />
     <MESSAGE value="3rd Commit." />
     <MESSAGE value="4th Commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="4th Commit." />
+    <MESSAGE value="Final Commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Commit." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -379,20 +358,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/venv/P1_basics.py" />
-    <entry file="file://$PROJECT_DIR$/P1_basics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="232" column="25" selection-start-line="232" selection-start-column="25" selection-end-line="232" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/P2_collections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9513">
-          <caret line="453" column="16" lean-forward="true" selection-start-line="453" selection-start-column="16" selection-end-line="453" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/P3_functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3045">
@@ -421,37 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/P6_modules.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1638">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/P7_calender.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2646">
-          <caret line="126" column="36" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
-          <folding>
-            <element signature="e#78#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/P8_jsonparsing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1659">
-          <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/P9_regex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3297">
-          <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/P10_pip.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1491">
@@ -474,8 +408,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/P12_filehandling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P9_regex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3297">
+          <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P7_calender.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2604">
+          <caret line="126" column="35" selection-start-line="126" selection-start-column="35" selection-end-line="126" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P6_modules.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P8_jsonparsing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P1_basics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="362" column="26" lean-forward="true" selection-start-line="362" selection-start-column="26" selection-end-line="362" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P2_collections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1974">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
         </state>
       </provider>
     </entry>

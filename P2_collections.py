@@ -152,16 +152,19 @@ print(cars)  # O/P : ['Mahindra', 'Tata', 'BMW', 'TOYOTA', ['Mahindra', 'Merc'],
 # extend()	Add the elements of a list (or any iterable), to the end of the current list
 cars.extend("VolksWagon")
 print(cars)
-# O/P :['Mahindra', 'Tata', 'BMW', 'TOYOTA', ['Mahindra', 'Merc'], 'Audi', 'Audi', 'V', 'o', 'l', 'k', 's', 'W', 'a', 'g', 'o', 'n']
+# O/P :['Mahindra', 'Tata', 'BMW', 'TOYOTA', ['Mahindra', 'Merc'], 'Audi', 'Audi', 'V',
+#           'o', 'l', 'k', 's', 'W', 'a', 'g', 'o', 'n']
 cars.extend(["VolksWagon", "Skoda"])
 print(cars)
-# O/P :['Mahindra', 'Tata', 'BMW', 'TOYOTA', ['Mahindra', 'Merc'], 'Audi', 'Audi', 'V', 'o', 'l', 'k', 's', 'W', 'a', 'g', 'o', 'n', 'VolksWagon', 'Skoda']
+# O/P :['Mahindra', 'Tata', 'BMW', 'TOYOTA', ['Mahindra', 'Merc'], 'Audi', 'Audi', 'V',
+#           'o', 'l', 'k', 's', 'W', 'a', 'g', 'o', 'n', 'VolksWagon', 'Skoda']
 
 # pop()	Removes the element at the specified position
 x = cars.pop(7)
 print(x)  # O/P : V
 print(cars)
-# O/P : ['Mahindra', 'Tata', 'BMW', 'TOYOTA', ['Mahindra', 'Merc'], 'Audi', 'Audi', 'o', 'l', 'k', 's', 'W', 'a', 'g', 'o', 'n', 'VolksWagon', 'Skoda']
+# O/P : ['Mahindra', 'Tata', 'BMW', 'TOYOTA', ['Mahindra', 'Merc'], 'Audi', 'Audi',
+#           'o', 'l', 'k', 's', 'W', 'a', 'g', 'o', 'n', 'VolksWagon', 'Skoda']
 
 # remove()	Removes the item with the specified value
 cars.remove("o")
@@ -173,12 +176,13 @@ cars.remove("a")
 cars.remove("g")
 cars.remove("o")
 cars.remove("n")
-print(cars)  # O/P : ['Mahindra', 'Tata', 'BMW', 'TOYOTA', ['Mahindra', 'Merc'], 'Audi', 'Audi', 'VolksWagon', 'Skoda']
+print(cars)
+# O/P : ['Mahindra', 'Tata', 'BMW', 'TOYOTA', ['Mahindra', 'Merc'], 'Audi', 'Audi', 'VolksWagon', 'Skoda']
 
 # copy()	Returns a copy of the list
 myCars = cars.copy()
-print(
-    myCars)  # O/P : ['Mahindra', 'Tata', 'BMW', 'TOYOTA', ['Mahindra', 'Merc'], 'Audi', 'Audi', 'VolksWagon', 'Skoda']
+print(myCars)
+# O/P : ['Mahindra', 'Tata', 'BMW', 'TOYOTA', ['Mahindra', 'Merc'], 'Audi', 'Audi', 'VolksWagon', 'Skoda']
 
 
 # count()	Returns the number of elements with the specified value
@@ -190,13 +194,13 @@ print((myCars.index("TOYOTA")))  # O/P : 3
 
 # insert()	Adds an element at the specified position
 myCars.insert(3, "HM")
-print(
-    myCars)  # O/P : ['Mahindra', 'Tata', 'BMW', 'HM', 'TOYOTA', ['Mahindra', 'Merc'], 'Audi', 'Audi', 'VolksWagon', 'Skoda']
+print(myCars)
+# O/P : ['Mahindra', 'Tata', 'BMW', 'HM', 'TOYOTA', ['Mahindra', 'Merc'], 'Audi', 'Audi', 'VolksWagon', 'Skoda']
 
 # reverse()	Reverses the order of the list
 myCars.reverse()
-print(
-    myCars)  # O/P : ['Skoda', 'VolksWagon', 'Audi', 'Audi', ['Mahindra', 'Merc'], 'TOYOTA', 'HM', 'BMW', 'Tata', 'Mahindra']
+print(myCars)
+# O/P : ['Skoda', 'VolksWagon', 'Audi', 'Audi', ['Mahindra', 'Merc'], 'TOYOTA', 'HM', 'BMW', 'Tata', 'Mahindra']
 
 ###
 #   Tuples :    A tuple is a collection which is ordered and unchangeable.
@@ -321,7 +325,7 @@ print(x)  # O/P : {'mango'}
 y = myset.difference(thisset)
 print(y)  # O/P : set()
 
-# difference_update()	Removes the items in this set that are also included in another, specified set
+# difference_update()	Removes the items in this set that are also included in another, specified set.
 thisset = {"apple", "banana", "cherry", "mango"}
 myset = {'cherry', 'apple', 'banana'}
 
@@ -344,7 +348,8 @@ print(x)  # O/P : {'banana', 'cherry', 'apple'}
 thisset.intersection_update(myset)
 print(thisset)  # O/P : {'banana', 'cherry', 'apple'}
 
-# isdisjoint()	Returns whether two sets have a intersection or not. Sets are disjoint when their intersectioon is null
+# isdisjoint()	Returns whether two sets have a intersection or not.
+#               Sets are disjoint when their intersectioon is null
 thisset = {"apple", "banana", "cherry", "mango"}
 myset = {'cherry', 'apple', 'banana'}
 urset = {"orange"}
@@ -391,8 +396,8 @@ print(n)  # O/P : {'banana', 'mango', 'cherry', 'orange', 'apple'}
 
 ###
 #  Dictionaries :
-#                   - A dictionary is a collection which is unordered, changeable and indexed.
-#                   - In Python dictionaries are written with curly brackets, and they have keys and values.
+#              - A dictionary is a collection which is unordered, changeable and indexed.
+#              - In Python dictionaries are written with curly brackets, and they have keys and values.
 #
 ###
 
@@ -481,7 +486,8 @@ thisdict = {
 thisdict.pop("model")
 print(thisdict)  # O/P : {'brand': 'Ford', 'year': 1964}
 
-# The popitem() method removes the last inserted item (in versions before 3.7, a random item is removed instead):
+# The popitem() method removes the last inserted item
+# (in versions before 3.7, a random item is removed instead):
 
 thisdict = {
     "brand": "Ford",
@@ -547,7 +553,8 @@ print(n)  # O/P : dict_keys(['Key1', 'Key2', 'Key3', 'Key4', 'Key5'])
 r = mydict.values()
 print(r)  # O/P : dict_values([4,4,4,4,4])
 
-# setdefault()	Returns the value of the specified key. If the key does not exist: insert the key, with the specified value
+# setdefault()	Returns the value of the specified key.
+#               If the key does not exist: insert the key, with the specified value
 p = mydict.setdefault("Key4", "d")
 q = mydict.setdefault("Key7", "d")
 print(p)  # O/P : 4
