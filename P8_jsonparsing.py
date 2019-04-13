@@ -1,6 +1,6 @@
 #############################
 #
-#   # JSON Parsing :
+# 18 # JSON Parsing :
 #                       -   JSON is a syntax for storing and exchanging data.
 #                       -   JSON is text, written with JavaScript object notation.
 #                       -   Python has a built-in package called json, which can be used to work with JSON data.
@@ -50,13 +50,7 @@ a = {
 b = json.dumps(a)
 
 # the result is a JSON string:
-print(b)
-
-"""
-O/P :
-
-{"name": "Sachin Tendulkar", "age": 45, "city": "Mumbai"}
-"""
+print(b)  # O/P : {"name": "Sachin Tendulkar", "age": 45, "city": "Mumbai"}
 
 # dict
 print(json.dumps({"name": "John", "age": 30}))  # O/P : {"name": "John", "age": 30}

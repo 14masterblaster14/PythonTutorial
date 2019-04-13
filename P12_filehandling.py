@@ -1,6 +1,6 @@
 #############################
 #
-#   # File Handling :   Operations
+# 22# File Handling :   Operations
 #                       -   Create
 #                       -   Write
 #                       -   Read
@@ -24,8 +24,7 @@
 #####
 
 
-fi = open("demofile.txt")  # Equal to      fi = open("demofile.txt","rt")
-
+# fi = open("demofile.txt")       # Equal to      fi = open("demofile.txt","rt")
 # O/P : If File not present
 # FileNotFoundError: [Errno 2] No such file or directory: 'demofile.txt'
 
@@ -71,7 +70,7 @@ Good Luck!
 fileName = "demofile.txt"
 f1 = open(fileName, "r")
 data = f1.read()
-f1.close()
+#f1.close()
 print(data)
 
 """ 
