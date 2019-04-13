@@ -225,6 +225,7 @@ words = ["How", "are", "you", "doing", "?"]
 sentence = ' '.join(words)
 print(sentence)  # O/P : How are you doing ?
 
+
 #############################
 # 7 #    Python Operators
 #               Arithmetic operators
