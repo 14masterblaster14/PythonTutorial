@@ -1,6 +1,6 @@
 #############################
 #
-#   # Usage of Modules :
+# 16 # Usage of Modules :
 #                       -   Need to import
 #                       -   Module name should start with lower case
 #############################
@@ -10,14 +10,17 @@
 import random
 
 # Create a random floating point number i.e. between 0 and 1, [0.0, 1.0]. and print it.
-print(random.random())
+print(random.random())  # O/P : 0.3539700489123593
 
 # pick a random whole number between 0 and 10.
-print(random.randrange(0, 10))
+print(random.randrange(0, 10))  # O/P : 0
 
 # pick a random floating point number between 0 and 10.
-print(random.uniform(0, 10))
+print(random.uniform(0, 10))  # O/P : 7.400656418774303
 
+#####
+# Custom modules
+#####
 import mymodule
 
 a = mymodule.greetings("Sachin")  # O/P : Hello, Sachin
@@ -68,11 +71,12 @@ O/P:
 
 from mymodule import badmintonplayer
 
-print(badmintonplayer["name"])
+print(badmintonplayer["name"])  # O/P : Sania
 
 ####
 #  Python Modules :
 ####
+
 """
 Python Modules
 Python Package
