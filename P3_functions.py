@@ -124,11 +124,12 @@ RecursionError: maximum recursion depth exceeded in comparison
 
 #############################
 #  Lambda Function :
-#                  It means a defined function can call itself.
-#                  A lambda function is a small anonymous function.
-#                  A lambda function can take any number of arguments,
-#                  but can only have one expression.
-#                  Use lambda functions when an anonymous function is required for a short period of time.
+#                  - It means a defined function can call itself.
+#                  - A lambda function is a small anonymous function.
+#                  - A lambda function can take any number of arguments,
+#                    but can only have one expression.
+#                  - Use lambda functions when an anonymous function is required
+#                    for a short period of time.
 #############################
 
 # Syntax :    lambda arguments : expression

@@ -12,19 +12,18 @@
 #####
 # open() : File Opening
 #
-#          Modes :
-#                   "r" - Read - Default value. Opens a file for reading, error if the file does not exist
-#                   "a" - Append - Opens a file for appending, creates the file if it does not exist
-#                   "w" - Write - Opens a file for writing, creates the file if it does not exist
-#                   "x" - Create - Creates the specified file, returns an error if the file exists
-#
-#                   "t" - Text - Default value. Text mode
-#                   "b" - Binary - Binary mode (e.g. images)
+#   Modes :
+#           "r" - Read - Default value. Opens a file for reading, error if the file does not exist
+#           "a" - Append - Opens a file for appending, creates the file if it does not exist
+#           "w" - Write - Opens a file for writing, creates the file if it does not exist
+#           "x" - Create - Creates the specified file, returns an error if the file exists
+#           "t" - Text - Default value. Text mode
+#           "b" - Binary - Binary mode (e.g. images)
 #
 #####
 
 
-# fi = open("demofile.txt")       # Equal to      fi = open("demofile.txt","rt")
+# fi = open("demofile.txt")       # Equal to   fi = open("demofile.txt","rt")
 # O/P : If File not present
 # FileNotFoundError: [Errno 2] No such file or directory: 'demofile.txt'
 
@@ -63,7 +62,8 @@ Good Luck!
 """
 
 #####
-# read() : By default the read() method returns the whole text, but you can also specify how many characters you want to return:
+# read() : By default the read() method returns the whole text,
+#          but you can also specify how many characters you want to return:
 #####
 
 ## Read block

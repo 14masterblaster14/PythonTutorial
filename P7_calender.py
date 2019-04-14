@@ -44,7 +44,8 @@ print(x.tzinfo)  # O/P : None
 #        %j	                Day number of year 001-366	                                    365
 #        %U             	Week number of year, Sunday as the first day of week, 00-53	    52
 #        %W	                Week number of year, Monday as the first day of week, 00-53	    52
-#        %c	                Local version of date and time	                                Mon Dec 31 17:41:00 2018
+#        %c	                Local version of date and time	                                Mon Dec 31
+#                                                                                           17:41:00 2018
 #        %x	                Local version of date	                                        12/31/18
 #        %X	                Local version of time	                                        17:41:00
 #        %%	                A % character	                                                %

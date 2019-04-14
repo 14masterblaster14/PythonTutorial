@@ -6,7 +6,6 @@
 #                - variables don't have limits
 #############################
 
-
 class MyClass:
     x = 5  # property
 
@@ -16,7 +15,8 @@ class MyClass:
     # Static Method :
     @staticmethod
     def static_method():
-        x = 1  # We can't change property at class level,compiler will ignore it. We can change in local scope.
+        x = 1   # We can't change property at class level,compiler will ignore it.
+                # We can change in local scope.
         print("This ia static method")
         print("Value of x :- ", x)
 
@@ -27,7 +27,6 @@ class MyClass:
         cls.x = 2  # We can change class property.
         print("Value of x :- ", cls.x)
 
-
 # Object:
 
 object1 = MyClass()
@@ -37,7 +36,7 @@ object1.display("object1")
 #                        O/P :  Accessing method :-
 #                               This is display method, called by  object1
 
-# You can access it with class and need not to create object for it, but can access with object as well
+# You can access it with class and need not to create object for it, but can access with object as well.
 MyClass.static_method()
 #                        O/P :  This ia static method
 #                               Value of x :-  1
@@ -49,7 +48,9 @@ print(object1.x)  # O/P : 5
 #  A class method is a method that’s shared among all objects.
 #  To call a class method, put the class as the first argument.
 #  You can use class method with both objects and the class.
-#  But you cannot change the property with object as it belongs to the class and can be changed with class only
+#  But you cannot change the property with object as it belongs to the class
+#  and can be changed with class only
+
 object1.class_method()
 #                       O/P :   This ia class method
 #                               Value of x :-  2
@@ -74,7 +75,6 @@ print(MyClass.x)  # 9
 
 from datetime import date
 
-
 class Animal:
     def __init__(self, name, age):
         self.name = name
@@ -92,7 +92,6 @@ class Animal:
     def isAdult(age):
         return age > 18
 
-
 animal1 = Animal('mayank', 21)
 animal2 = Animal.fromBirthYear('mayank', 1996)
 
@@ -102,14 +101,14 @@ print("Animal2 age : ", animal2.age)  # O/P : Animal2 age :  23
 # print the result
 print(Animal.isAdult(22))  # True
 
-
 #
 #  The __init__() Function :
-#                              It is called automatically every time the class is being used to create a new object.
+#               It is called automatically every time the class is being used to create a new object.
 #
 
 class Person:
-    def __init__(self, name, age):  # The self / anyname parameter is a reference to the class instance itself,
+    def __init__(self, name, age):
+        # The self / anyname parameter is a reference to the class instance itself,
         # and it is used to access variables that belongs to the class.
         self.userId = name + "" + "7"
         self.userPassword = "None"
@@ -126,7 +125,6 @@ class Person:
     def getPassword(self):
         return self.userPassword
 
-
 person = Person("Saurav", 47)  # O/P : Hello my name is : Saurav
 print(person.userId)  # O/P : Saurav7
 print(person.name)  # O/P : Saurav
@@ -142,7 +140,6 @@ del person.age  # Delete Object Properties
 # print(person.age)
 
 del person  # Delete Objects
-
 
 #############################
 # a #    Inheritance
@@ -162,7 +159,6 @@ class Person:
     def printAddress(self, city):
         print("Persons city is - " + city)
 
-
 # Use the Person class to create an object, and then execute the printname method:
 x = Person("Sachin", "Tendulkar")
 x.printname()  # O/P : Person Name is - Sachin Tendulkar
@@ -173,18 +169,20 @@ x.printname()  # O/P : Person Name is - Sachin Tendulkar
 ##
 
 class Student(Person):
-    pass  # Use the pass keyword when you do not want to add any other properties or methods to the class.
-
+    pass
+    # Use the pass keyword when you do not want to add any other properties or methods to the class.
 
 y = Student("Saurav", "Ganguly")
 y.printname()  # O/P : Person Name is - Saurav Ganguly
 
 
 class Employee(Person):
-    # When you add the __init__() funcion, the child class will no longer inherit the parent's __init__() function.
+    # When you add the __init__() funcion, the child class will no longer inherit
+    # the parent's __init__() function.
     # The child's __init__() function overrides the inheritance of the parent's __init__() function.
     def __init__(self, fname, lname, age):
-        # To keep the inheritance of the parent's __init__() function, add a call to the parent's __init__() function:
+        # To keep the inheritance of the parent's __init__() function,
+        # add a call to the parent's __init__() function:
         # Person.__init__(self, fname, lname)
         # self.employee_firstname = fname
         # self.employee_lastname = lname
@@ -232,7 +230,6 @@ class Abc:
     def abcDispplay(self):
         print("Display ABC")
 
-
 class Def:
 
     def __init__(self, _d):
@@ -243,7 +240,6 @@ class Def:
 
     def defDispplay(self):
         print("Display DEF")
-
 
 class Xyz(Abc, Def):
 
@@ -289,7 +285,6 @@ class Person:
 
         # end of class definition
 
-
 # defining another class
 class Student:  # Person is the
     def __init__(self, studentId):
@@ -297,7 +292,6 @@ class Student:  # Person is the
 
     def getId(self):
         return self.studentId
-
 
 class Resident(Person, Student):  # extends both Person and Student class
     def __init__(self, name, age, id):
@@ -350,17 +344,16 @@ class Vw(Stu):
     def vwDisplay(self):
         print("Display VW")
 
-
 myObject = Vw(1, 2, 3)
-myObject.vwDisplay()  # O/P : Display VW
-print("v - ", myObject.v)  # O/P : v -  1
+myObject.vwDisplay()        # O/P : Display VW
+print("v - ", myObject.v)   # O/P : v -  1
 
-myObject.pqrDispplay()  # O/P : Display PQR
-print("p - ", myObject.p)  # O/P : p -  3
-print("_q - ", myObject._q)  # O/P : _q -  None
+myObject.pqrDispplay()      # O/P : Display PQR
+print("p - ", myObject.p)   # O/P : p -  3
+print("_q - ", myObject._q)         # O/P : _q -  None
 # print("__r - ", myObject.__r)     # Can't access private variable
 
-myObject.stuDispplay()  # O/P : Display STU
-print("s - ", myObject.s)  # O/P : s -  2
+myObject.stuDispplay()          # O/P : Display STU
+print("s - ", myObject.s)       # O/P : s -  2
 print("_t - ", myObject._t)  # O/P : _t -  None
 # print("__u - ", myObject.__u)     # Can't access private variable

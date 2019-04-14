@@ -62,7 +62,6 @@ setuptools      39.0.1
 
 # C:\Users\Your Name\AppData\Local\Programs\Python\Python36-32\Scripts>pip uninstall pytz
 
-
 # e.g.
 
 import camelcase

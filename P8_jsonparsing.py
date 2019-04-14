@@ -1,9 +1,9 @@
 #############################
 #
 # 18 # JSON Parsing :
-#                       -   JSON is a syntax for storing and exchanging data.
-#                       -   JSON is text, written with JavaScript object notation.
-#                       -   Python has a built-in package called json, which can be used to work with JSON data.
+#                 -  JSON is a syntax for storing and exchanging data.
+#                 -  JSON is text, written with JavaScript object notation.
+#                 -  Python has a built-in package called json, which can be used to work with JSON data.
 #
 #############################
 
@@ -22,8 +22,9 @@ print(y["name"])  # O/P : Saurav Ganguly
 
 ###
 #   Convert from Python to JSON :
-#                                   - We can convert Python objects of the following types, into JSON strings.
-#                                   - When you convert from Python to JSON, Python objects are converted into the JSON (JavaScript) equivalent:
+#                  - We can convert Python objects of the following types, into JSON strings.
+#                  - When you convert from Python to JSON, Python objects are converted
+#                    into the JSON (JavaScript) equivalent:
 #
 #       Python	        JSON
 #
@@ -99,7 +100,8 @@ print(json.dumps(x))
 """
 O/P :
 
-{"name": "John", "age": 30, "married": true, "divorced": false, "children": ["Ann", "Billy"], "pets": null, "cars": [{"model": "BMW 230", "mpg": 27.5}, {"model": "Ford Edge", "mpg": 24.1}]}
+{"name": "John", "age": 30, "married": true, "divorced": false, "children": ["Ann", "Billy"]
+, "pets": null, "cars": [{"model": "BMW 230", "mpg": 27.5}, {"model": "Ford Edge", "mpg": 24.1}]}
 
 """
 
